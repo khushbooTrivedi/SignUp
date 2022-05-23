@@ -19,11 +19,11 @@ Validations on SignUp Form
 5. ConfirmPassword -> Required,Should match Password
 
 Validations on Login Form 
-1.Email -> Required,Regex pattern matching
-2.Password -> Required
+1. Email -> Required,Regex pattern matching
+2. Password -> Required
 
 Validations on Forgot Password Form
-Email -> Required,Regex pattern matching
+1. Email -> Required,Regex pattern matching
 
 Unit Tests covered
 All the validations on SignUp Form,Login Form and Forgot Password Form are covered 
