@@ -40,7 +40,7 @@ Steps to run:
 5. To build -> ng build --prod
 
 Flow
-1.First screen -> Login screen
+1. First screen -> Login screen
 2. Click on link -> Create Today
 3. Enter all fields and Sign In
 4. Login
