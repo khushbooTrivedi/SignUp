@@ -3,6 +3,8 @@ SignUp form application is created with
 - Angular 13
 - Bootstrap 5
 
+Check screenshots for UI. Path: SignUp/screenshots/
+
 Following things are implemented:
 1. Routing
 2. JWT interceptor
