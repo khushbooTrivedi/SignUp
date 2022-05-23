@@ -25,10 +25,11 @@ Validations on Login Form
 Validations on Forgot Password Form
 1. Email -> Required,Regex pattern matching
 
-Unit Tests covered
+#Unit Tests covered
+
 All the validations on SignUp Form,Login Form and Forgot Password Form are covered 
 
-Not covered
+#Not covered
 Testing custom validators 
 
 Steps to run:
