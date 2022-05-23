@@ -125,5 +125,6 @@ export class SignUpComponent implements OnInit {
         },
       });
     }
+    this.signIn = false;
   }
 }

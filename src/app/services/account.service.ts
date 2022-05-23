@@ -17,7 +17,6 @@ export class AccountService {
 
   public setUserValue(user: User) {
     if (user) {
-      debugger;
       let userList = localStorage.getItem('users')
         ? JSON.parse(localStorage.getItem('users'))
         : [];
