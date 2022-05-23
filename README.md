@@ -29,7 +29,7 @@ Validations on Forgot Password Form
 
 All the validations on SignUp Form,Login Form and Forgot Password Form are covered 
 
-#Not covered
+#Not covered: 
 Testing custom validators 
 
 Steps to run:
