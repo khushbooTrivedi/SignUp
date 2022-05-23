@@ -3,7 +3,7 @@ SignUp form application is created with
 - Angular 13
 - Bootstrap 5
 
-Check screenshots for UI. Path: SignUp/screenshots/
+Check screenshots for UI. Path: **SignUp/screenshots/**
 
 Following things are implemented:
 1. Routing
