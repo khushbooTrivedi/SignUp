@@ -1,0 +1,44 @@
+<div class="d-flex flex-column vh-100 vw-100">
+  <div class="d-flex flex-grow-1 justify-content-center align-items-center">
+
+    <div class="container card-container">
+      <app-alert #alert></app-alert>
+
+      <div class="card shadow p-3 mb-5 bg-body rounded">
+        <div class="card-body">
+          <form class="form-horizontal" [formGroup]="loginForm" *ngIf="loginForm" (ngSubmit)="onSubmit()">
+            <div class="d-flex justify-content-center align-items-center"><img src="../assets/logo.png" /></div>
+            <h5 class="card-title d-flex justify-content-center fs-2 mb-2">Welcome</h5>
+            <p class="card-text d-flex justify-content-center mb-2">Don't have an account?
+              <span class="ms-1">
+                <a [routerLink]="['../signup']">Create today!</a>
+              </span>
+            </p>
+            <div class="form-group mb-3">
+              <label for="email" class="mb-1">Email</label>
+              <input type="text" class="form-control" [ngClass]="formErrors.email.className" id="email"
+                placeholder="Enter email" name="email" formControlName="email">
+              <div class="invalid-feedback">{{formErrors.email.message}}</div>
+            </div>
+            <div class="form-group mb-3">
+              <label for="password" class="mb-1">Password</label>
+              <input type="password" class="form-control" [ngClass]="formErrors.password.className"
+                placeholder="Enter password" id="password" formControlName="password">
+              <div class="invalid-feedback">{{formErrors.password.message}}</div>
+            </div>
+            <div class="form-group form-check mb-3 d-flex justify-content-between">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Remember me
+              </label>
+              <span> <a class="" [routerLink]="['../forgotpassword']">Forgot Password?</a></span>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+              <span class="pe-3">Login</span>
+              <span *ngIf="loggedIn" class="spinner-border spinner-border-sm"></span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
