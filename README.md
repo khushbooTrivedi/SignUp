@@ -12,15 +12,15 @@ Following things are implemented:
 6. Unit Testing
 
 Validations on SignUp Form
-FirstName -> Required,Characters between(2-20)
-LastName -> Required,Characters between(2-20)
-Email -> Required,Regex pattern,created custom validator if some logic has to be implemented
-Password -> Required,1 uppercase,1 lowercase,not contain user’s first or last name.
-ConfirmPassword -> Required,Should match Password
+1. FirstName -> Required,Characters between(2-20)
+2. LastName -> Required,Characters between(2-20)
+3. Email -> Required,Regex pattern,created custom validator if some logic has to be implemented
+4. Password -> Required,1 uppercase,1 lowercase,not contain user’s first or last name.
+5. ConfirmPassword -> Required,Should match Password
 
 Validations on Login Form 
-Email -> Required,Regex pattern matching
-Password -> Required
+1.Email -> Required,Regex pattern matching
+2.Password -> Required
 
 Validations on Forgot Password Form
 Email -> Required,Regex pattern matching
